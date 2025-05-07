@@ -1,0 +1,218 @@
+.paper-review-container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Cambria';
+  }
+  
+  
+  .paper-review-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .paper-review-header-item {
+    flex-basis: 18%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  
+  .paper-review-content {
+    width: 95%;
+    margin: auto;
+    background: #d1d1d1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .paper-review-row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .paper-review-column {
+    flex-basis: 18%;
+    text-align: center;
+  }
+  
+  
+  .Reviewer1 {
+    margin-bottom: 0.3rem;
+  }
+  
+  
+  .Reviewer2 {
+    margin-bottom: 0.8rem;
+  }
+  
+  
+  .action-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 0.3rem;
+  }
+  
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .error-message {
+    color: red;
+  }
+  
+  
+  .pdf-viewer {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  
+  .pdf-viewer .close-btn1 {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: -10px;
+    right: -15px;
+    background: transparent;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: #ff0000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  
+  .pdf-viewer .close-btn1:hover {
+    color: #d0d0d0;
+  }
+  
+  
+  .pdf-viewer iframe {
+    width: 100%;
+    height: 600px;
+  }
+  
+  
+  .Usercomments-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  
+  .comment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  
+  .comment-header h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  
+  .comment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .comment-content {
+    margin-bottom: 10px;
+  }
+  
+  
+  .comment-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .comment-actions button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  .comment-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .reply-box {
+    margin-top: 15px;
+  }
+  
+  
+  .reply-box input[type="text"] {
+    width:30%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .reply-box button {
+    width: 80px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  
+  .reply-btn{
+    margin-left: 1rem;
+    background: #f9f9f9;
+    color: #007bff;
+  }
+  
+  
+  
+  .delete-btn{
+    margin-left: 1rem;
+    background: #f9f9f9;
+    color: #007bff;
+  }
+  

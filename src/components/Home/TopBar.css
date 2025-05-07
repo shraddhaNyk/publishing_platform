@@ -1,0 +1,71 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary-dark: #5651e5;
+  --primary-light: #709dff;
+}
+
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+    /* @apply bg-blue-50/80; */
+  }
+  body {
+    @apply font-[Poppins];
+  }
+  .homelink {
+    @apply p-4 text-sm;
+  }
+  .topbar-button {
+    @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white;
+  }
+  h2 {
+    @apply text-xl font-bold;
+  }
+  .HomeNavUL a{
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+}
+.primary-text {
+  color: var(--primary-dark);
+}
+.bg-ijst-blue {
+  background-color: rgb(9, 22, 73);
+}
+
+/* Add this CSS to your stylesheet or in a <style> tag */
+/* Add this CSS to your stylesheet or in a <style> tag */
+.responsive-div {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .responsive-div {
+    width: 80%;
+    align-items: center;
+  
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-div {
+    width: 60%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-div {
+    width: 80%;
+  }
+}

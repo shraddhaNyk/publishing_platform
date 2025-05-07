@@ -1,0 +1,94 @@
+/* SearchComponent.css */
+
+/* Base styles for search container */
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Search form styles */
+.search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background-color: #2d324e;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 115%;
+}
+
+/* Search results container */
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Individual search result item */
+.result-item {
+  width: calc(50% - 10px); /* Two items per row with spacing between */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Trending questions container */
+.trending-questions {
+  margin: 3% 0% 0 6%;
+  width: 85%;
+  background-color: #f9e2e7;
+  padding: 1.5%;
+}
+
+/* Trending questions heading */
+.trending-questions h2 {
+  margin-bottom: 2%;
+  text-align: left;
+}
+
+/* Trending questions list */
+.trending-questions ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+/* Individual trending question */
+.trending-questions li {
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: #007bff;
+  padding: 1%;
+}
+
+.trending-questions li:hover {
+  text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .search-results .result-item {
+    width: 100%; /* Display one item per row on smaller screens */
+  }
+  
+  .trending-questions {
+    width: 90%; /* Adjust width of trending questions container */
+    margin-left: 2.5%; /* Center the container */
+    margin-right: 2.5%;
+  }
+}

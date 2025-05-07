@@ -1,0 +1,45 @@
+
+.message-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f6f6f6;
+  padding: 1.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;  
+  width: 20%;
+  text-align: center;
+}
+
+.message-box p {
+  margin-bottom: 15px;
+}
+
+.message-box button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.message-box button:hover {
+  background-color: #0056b3;
+}
+
+.upload-btn1 {
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  margin-left: 35%;
+  height: 4%; 
+  width: 10%;
+  /* font-weight: bold; */
+  letter-spacing: 1px;
+  padding: 1%; 
+  margin-top: 2%;
+}
+

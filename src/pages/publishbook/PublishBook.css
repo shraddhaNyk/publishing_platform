@@ -1,0 +1,138 @@
+#navlists{
+  display: flex;
+  width: 90%;
+  height: auto;
+  align-items:center;
+  justify-content:space-evenly;
+  padding: 0px 0px 40px 0px;
+}
+
+#navlists li{
+  list-style: none;
+  padding: 0 5px;
+  position: relative;
+  
+}
+.Path {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000;
+  transition: 0.2s ease-in-out;
+  cursor: pointer; /* Add cursor pointer for better UX */
+}
+.Path:hover::after,
+.activated::after {
+  content: '';
+  width: 80%;
+  height: 5%;
+  background: #0401bf;
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+} 
+
+
+/* General container styling */
+.publish-container {
+  font-family: 'Helvetica', sans-serif;
+  margin: 20px;
+  color: #333;
+}
+
+/* Navigation bar styling */
+.publish-links {
+  margin-bottom: 20px;
+}
+
+.publish-nav-lists {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.publish-nav-lists li {
+  list-style: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.publish-nav-lists li:hover {
+  background: #7b7b7b;
+  border-radius: 5px;
+  color: #fff;
+}
+.publish-activated {
+  background: #04AA6D;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.publish-path {
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.publish-activated .publish-path {
+  color: #fff;
+}
+
+/* Indicator styling */
+.publish-nav-lists li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #04AA6D;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.publish-nav-lists li:hover::after,
+.publish-activated::after {
+  width: 100%;
+}
+
+/* Content area styling */
+.publish-content {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #fdfdfd;
+}
+
+/* Additional Styling */
+.publish-path {
+  color: #333;
+}
+
+.publish-nav-lists li:hover .publish-path {
+  color: #fff;
+}
+
+/* Scrollbar Styling for modern look */
+.publish-content {
+  height:fit-content;
+  overflow-y: auto;
+}
+
+.publish-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.publish-content::-webkit-scrollbar-thumb {
+  background-color: #7b7b7b;
+  border-radius: 10px;
+}
+
+.publish-content::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}

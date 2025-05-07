@@ -1,0 +1,46 @@
+/* DeleteUser.css */
+.delete-user-container {
+  margin: 20px;
+  width: 80vw;
+}
+
+.delete-user-container h2 {
+  margin-bottom: 10px;
+}
+
+.delete-user-container input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.delete-user-container button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-user-container .table-container {
+  overflow-x: auto;
+}
+
+.delete-user-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.delete-user-container th, .delete-user-container td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.delete-user-container th {
+  background-color: #f2f2f2;
+}
+
+.delete-user-container tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.delete-user-container tbody tr:hover {
+  background-color: #ddd;
+}

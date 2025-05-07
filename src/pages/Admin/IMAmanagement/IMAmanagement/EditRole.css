@@ -1,0 +1,84 @@
+.edit-role-unique-container {
+  padding: 20px;
+  max-width: 65%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  margin-top: 3%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-role-unique-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 0%;
+}
+
+.edit-role-unique-block {
+  margin-bottom: 20px;
+}
+
+.edit-role-unique-block label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.edit-role-unique-block input[type="text"] {
+  width: 40%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-role-unique-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edit-role-unique-checkbox-group label {
+  margin-right: 20px;
+  margin-left: 1%;
+  margin-bottom: 10px;
+}
+
+.edit-role-unique-checkbox-group label input[type="checkbox"] {
+  margin-right: 4px; /* Adjusted margin-right for spacing between checkbox and label */
+}
+
+
+.edit-role-unique-button {
+  display: block;
+  width: 50%; /* Adjusted width for smaller screens */
+  margin: 0 auto; /* Center the button horizontally */
+  padding: 10px;
+  background-color: #2d324e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-role-unique-button:hover {
+  background-color: #4a527c;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .edit-role-unique-container {
+    padding: 10px;
+    border-radius: 0; /* Remove border-radius for smaller screens */
+    box-shadow: none; /* Remove box shadow for smaller screens */
+    margin-top: 0;
+  }
+
+  .edit-role-unique-container h1 {
+    margin-left: 0; /* Adjust margin-left for smaller screens */
+  }
+
+  .edit-role-unique-button {
+    width: 50%; /* Full width for smaller screens */
+  }
+}

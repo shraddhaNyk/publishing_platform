@@ -1,0 +1,110 @@
+.cart{
+  margin-left: 15%;
+  }
+  .cartItem {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row; /* Stack items vertically on smaller screens */
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 20px; 
+    padding: 3px; /* Add padding to cart items */
+    box-sizing: border-box; /* Include padding in width calculations */
+  }
+  
+  .cartItem img {
+    width: 40%;
+    height: auto;
+    margin: 5%;
+    border-radius: 5%;
+  }
+  
+  .cartItem .description {
+    font-size: 18px; /* Reduce font size for better responsiveness */
+    text-align: center; /* Center-align text for better readability */
+    margin-top: 10px; /* Add margin to separate the image and description */
+  }
+  
+  .countHandler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; /* Add margin to separate the description and count handler */
+  }
+  
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 5px; /* Add margin between buttons and input */
+  }
+  
+  .checkout {
+    margin-left: 25%;
+    width: 50%;
+  }
+  
+  .checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: #2d324e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .cartItem {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center;
+    }
+  
+    .cartItem img {
+      width: 80%; /* Reduce image width */
+    }
+  
+    .cartItem .description {
+      font-size: 16px; /* Further reduce font size */
+    }
+  
+    .countHandler input {
+      width: 35px; /* Reduce input width */
+    }
+  
+    .checkout button {
+      width: 140px; /* Reduce button width */
+      height: 45px; /* Reduce button height */
+      font-size: 14px; /* Reduce font size */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cartItem {
+      flex-direction: column; /* Stack items vertically on very small screens */
+      align-items: center;
+    }
+  
+    .cartItem img {
+      width: 100%; /* Reduce image width */
+    }
+  
+    .cartItem .description {
+      font-size: 14px; /* Further reduce font size */
+    }
+  
+    .countHandler input {
+      width: 30px; /* Further reduce input width */
+    }
+  
+    .checkout button {
+      width: 130px; /* Further reduce button width */
+      height: 40px; /* Further reduce button height */
+      font-size: 12px; /* Further reduce font size */
+    }
+  }
+  

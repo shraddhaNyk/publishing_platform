@@ -1,0 +1,50 @@
+label{
+  color:rgb(0, 0, 0); 
+  text-align:left
+  ;
+}
+h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide-content {
+  width: 65%;
+  height: 100%;
+  margin-bottom: 20%;
+  margin-left: 15%;
+  background-color: #d499a5c3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+}
+
+.swiper-slide-content img {
+  height: 110px;
+  width: 100%;
+  background-size:cover;
+}
+
+.swiper-slide-content p {
+  margin-top: 10%;
+  font-size: 80%;
+}
+.swiper-slide-content button {
+  margin-top: 15px;
+  background: #b2b2b2c3; /* Default background color */
+  width: 100%;
+  height: 40px;
+  border-style:double;
+  cursor: pointer; /* Ensure cursor changes on hover */
+}
+
+

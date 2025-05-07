@@ -1,0 +1,105 @@
+/* Styling for each comment box */
+.comment {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  /* Styles for paragraphs inside comments */
+  .comment p {
+    margin: 0;
+  }
+  /* Styling for reply buttons */
+  .reply-button {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #007BFF;
+    border: none;
+    background: none;
+    text-decoration: underline;
+  }
+  /* Hover effect for reply buttons */
+  .reply-button:hover {
+    color: #0056b3;
+  }
+  /* Layout styles for comment input container */
+  .comment-form textarea,
+  .comment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+  }
+  /* Styles for comment input field */
+  .comment-form button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .comment-form button:hover {
+    background-color: #0056b3;
+  }
+  /* Indentation for nested comments */
+  .nested-comments {
+    margin-left: 20px;
+  }
+  /* Styles for arrow buttons */
+  .arrow {
+    cursor: pointer;
+    color: #007BFF;
+    background: none;
+    border: none;
+  }
+  /* Hover effect for arrow buttons */
+  .arrow:hover {
+    color: #0056b3;
+  }
+  /* Styles for the overall comment section */
+  .comment-section {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .comment-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: -15px;
+    margin-left: 30px;
+  }
+  
+  .comment-input-container input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #d8d7d7;
+  
+  }
+  
+  .button-container {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    padding: 5px 10px;
+    color: rgb(28, 23, 23);
+    background-color: #e6e8ea;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }

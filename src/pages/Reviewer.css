@@ -1,0 +1,358 @@
+/* Reviewer.css */
+
+.reviewer-container {
+  width: 78%;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+.reviewer-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviewer-content {
+  background: #f9e2e7;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+
+.reviewer-options {
+  margin-bottom: 20px;
+  text-align: center; /* Center the radio buttons */
+}
+
+.reviewer-option-label {
+  margin-right: 20px;
+  font-size: 1em;
+}
+.qualification-docs{
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+  background: #f9e2e7;
+  border-radius: 10px;
+}
+
+.file-name {
+  margin-left: 10px;
+}
+
+.submit-btn-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #2d324e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #3c4368;
+}
+
+.review-msg-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;  
+  width: 20%;
+  text-align: center;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.review-msg-box p {
+  margin: 0;
+}
+
+.review-msg-box button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.review-msg-box button:hover {
+  background-color: #c82333;
+}
+
+/* Admin Application Styles */
+.admin-application {
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+  background: #f9e2e7;
+  border-radius: 10px;
+}
+.admin-application h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-application label {
+  display: block;
+  margin-top: 10px;
+}
+
+.UserEmpID {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-application input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.admin-application .next-btn {
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #2d324e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-application .next-btn:hover {
+  background-color: #3c4368;
+}
+
+.admin-application .input-group {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.admin-application .input-group label {
+  margin-right: 10px;
+  width: 20%;
+}
+
+.admin-application .input-group input {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.admin-application .input-group button {
+  width: 20%;
+  margin-top: 0;  /* Ensures button is vertically aligned */
+}
+
+.publisher-application {
+  width: 80%;
+  margin-left: 20%;
+  padding: 20px;
+  background: #f9e2e7;
+  border-radius: 10px;
+}
+
+.publisher-application h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.publisher-type {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.publisher-type-label {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.publisher-form,
+.UserEmpID {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  width: 70%;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.publisher-form input[type="text"],
+.publisher-form input[type="file"],
+.UserEmpID input[type="text"] {
+  width: 70%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.publisher-form .next-btn,
+.UserEmpID .next-btn {
+  width: 30%;
+  width: 30%;
+  padding: 12px;
+  margin-top: 30px; /* Increased margin for more space */
+  background-color: #2d324e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.publisher-form .next-btn:hover,
+.UserEmpID .next-btn:hover {
+  background-color: #3c4368;
+}
+
+
+/* Student or Employee Application Styles */
+.student-or-employee-application {
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+  background: #f9e2e7;
+  border-radius: 10px;
+}
+
+.student-or-employee-application h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.student-employee-type {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.student-employee-label {
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.student-form,
+.employee-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1em;
+}
+
+.student-form input[type="text"],
+.student-form input[type="email"],
+.student-form input[type="file"],
+.employee-form input[type="text"],
+.employee-form input[type="email"],
+.employee-form input[type="file"] {
+  width: 50%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* corporate-application Styles */
+.corporate-application {
+  width: 80%;
+  margin-left: 20%;
+  padding: 20px;
+  background: #f9e2e7;
+  border-radius: 10px;
+}
+
+.corporate-application h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.corporate-application .form-group {
+  margin-bottom: 20px;
+}
+
+.corporate-application .form-group label {
+  font-size: 1em;
+}
+
+.corporate-application input[type="text"],
+.corporate-application input[type="file"] {
+  width: 50%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.corporate-application .submit-btn-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.corporate-application .submit-btn {
+  background-color: #2d324e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.corporate-application .submit-btn:hover {
+  background-color: #3c4368;
+}
+
+.table-container1 {
+  width: 100%; /* Full width for responsiveness */
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}

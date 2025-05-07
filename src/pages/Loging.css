@@ -1,0 +1,115 @@
+/* .wrapper {
+  display: flex;
+  
+} */
+
+.login-form,
+.register-form {
+  background-color: #fffefe;
+  border: 1px solid #fffbfb;
+  
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.login-form, .register-form {
+  width: 300px;  /*Adjust width as needed */
+  height: 550px;
+  padding: 20px;
+  background-color: white;
+  /* linear-gradient(#c3cbd6 ,#748b67,#2a403d); */
+  border: 1px solid #000000; /* Add border for visual separation */ 
+  border-radius: 10px; /* Add border radius for rounded corners */
+  margin: 0 10px;  /* Adjust margin between forms */ 
+  
+}
+
+/* Login page style sheet*/
+.wrapper {
+  align-items: center;
+  top: 50%;
+  left:50%;
+  display: flex;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100vh;
+  justify-content: center;  /* Align forms to the center horizontally */
+  align-items: center;  /* Align forms to the center vertically */
+ background-color: #dcdcdc;
+  background-size:cover;
+  
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  font-size: 16xp;
+}
+
+.input-box .icon {
+  position: absolute;
+  left:20px;
+  top: 50%;
+  transform: translateY(-20%);
+  font-size: 5xp;
+}
+
+.input-field {
+  padding: 8px;
+  border: 5px solid #000a;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-form {
+  border: 3px solid #000;
+  background-color: white ; 
+  /* linear-gradient(#c3cbd6 ,#748b67,#2a403d); */
+  margin-right: 50px;  /* Adjust margin-right if needed */ 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login-form input {
+  border: 2px solid #000;
+  padding: 8px;  /* Add padding for spacing */ 
+}
+
+.register-form {
+  margin-left: 0;  /* Adjust margin-left if needed */ 
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.register-form input{
+  background: transparent;
+  padding: 8px;  /* Add padding for spacing */
+  
+
+}
+.register-form select{
+  border: 2px solid #000;
+  padding: 8px;
+
+  
+  /* Add padding for spacing */
+
+}
+.forgot-password-link a {
+  color: #007bff; /* Typical link color (blue) */
+  text-decoration: underline; /* Adds underline */
+  cursor: pointer; /* Changes cursor to a pointer */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin-left:"20%";
+}
+
+.forgot-password-link a:hover {
+  color: #0056b3; /* Darker shade on hover */
+  text-decoration: none; /* Removes underline on hover */
+}

@@ -1,0 +1,29 @@
+
+.Fj-search{
+  width: 25%;
+  margin-left: 20%;
+  display: flex;
+  align-items:center ;
+  background:#f8eef0 ;
+  padding: 0.7%;
+  border-radius: 1px;
+  height: 19%;
+  border-style: double;
+  
+}
+.Fj-search input{
+  width: 90%;
+  padding: 1px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #000000;
+  font-size: 15px;
+  
+
+}
+.Fj-search input::placeholder{
+  color: #060606;
+
+  
+}

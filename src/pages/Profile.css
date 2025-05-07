@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+.topbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  background-color: #7b7b7b;
+  transition: width 0.3s ease;
+  overflow-x: hidden;
+  
+}
+
+.toplink {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.toplink:hover {
+  background-color: #9c9a9a;
+}
+
+.toplink.topactive {
+  color: white;
+}
+
+.toplink_text {
+  margin-left: 10px;
+}
+.topicon, .toplink_text{
+  font-size: 15px;
+}
+.topame{
+  font-size: 15px;
+}
+
+
+

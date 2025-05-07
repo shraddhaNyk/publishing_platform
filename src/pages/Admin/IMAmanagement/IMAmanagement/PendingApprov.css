@@ -1,0 +1,99 @@
+.pending-approv-container {
+  margin: 50px auto;
+  padding: 20px;
+  width: 70vw;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table-container1 {
+  width: 100%; /* Full width for responsiveness */
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.ApprRej {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ApprRej button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #2d324e;
+  color: white;
+  border-radius: 5px;
+}
+
+.ApprRej button:hover {
+  background-color: #40466a;
+}
+
+.ApprRej button:last-of-type {
+  background-color: #c33131;
+}
+
+.ApprRej button:last-of-type:hover {
+  background-color: #be5353;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .table-container1 {
+    margin-left: 0;
+  }
+
+  .ApprRej {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ApprRej button {
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}/* Message box */
+.message-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999; /* Adjust z-index as needed */
+}
+
+.message-box p {
+  margin: 0;
+}
+
+/* Adjust the styles as needed */

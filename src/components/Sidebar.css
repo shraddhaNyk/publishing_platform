@@ -1,0 +1,194 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background: #282f59;
+  color: #fff;
+  height: 200vh;
+  width: 25%;
+  transition: all 0.5s;
+  overflow: hidden;
+ 
+max-width: 180px;
+min-width: 25px;
+}
+
+.open {
+  width: 30%;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.bars {
+  font-size: 28px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.icon{
+  size: 2rem;
+}
+
+
+.icon, .link_text {
+  font-size: 15px;
+}
+
+.submenu {
+  background-color: #3f445d;
+  padding-left: 0%;
+  display: flex;
+  flex-direction: column;
+  margin-left: -3%;
+  /* overflow: hidden; */
+  
+}
+/* .submenu:active, */
+.submenu:hover{
+  color: #04AA6D; 
+}
+
+.submenu .link {
+  padding: 8px 15px 8px 30px;
+  
+}
+.submenu .link_text {
+  font-size: 85%;
+  
+}
+
+
+
+.arrow {
+  margin-left: 50%;
+  overflow: hidden;
+}
+.Subarrow{
+  margin-left: 20%;
+  overflow: hidden;
+
+}
+
+.toggleSubMenu{
+  background-color: #3f445d;
+  /* padding-left: 0px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin-left: 12%;
+  /* overflow: hidden; */
+  position: absolute; 
+  margin-top: -35px;
+}
+
+ @media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+  }
+  .open {
+    width: 250px;
+  }
+  .top_section {
+    margin-left: 5px;
+  }
+  .bars {
+    font-size: 24px;
+  }
+  .link {
+    padding: 10px;
+  }
+  .icon, .link_text {
+    font-size: 12px;
+  }
+  .submenu .link {
+    padding: 8px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    width: 60px;
+  }
+  .open {
+    width: 200px;
+  }
+  .top_section {
+    padding: 10px 0;
+  }
+  .bars {
+    font-size: 20px;
+  }
+  .link {
+    padding: 8px;
+  }
+  .icon, .link_text {
+    font-size: 10px;
+  }
+  .submenu .link {
+    padding: 6px 8px;
+  }
+} 
+
+.link {
+  display: flex;
+  color: #f4f4f4;
+  padding: 10px 15px;
+  gap: 10px;
+  cursor: pointer;
+  position: relative; 
+}
+/* .link:hover{
+  background:#a67a83;
+  color: #000;
+  transition: all 0.5s;
+} */
+.active{
+  transition: all 0.5s;
+  color: #04AA6D;
+}
+.icon, .link_text{
+  font-size: 100%;
+}
+
+
+/* Styles for NestedSubMenu */
+.nested-link {
+  padding: 8px 15px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* .nested-link.active , */
+.nested-link:hover{
+  color: #04AA6D; 
+}
+
+.nested-link_text {
+  font-size: 85%;
+  margin-left: 20px;
+}
+
+.nested-toggleSubMenu {
+  background-color: #3f445d;
+  padding: 5px 15px;
+  margin-left: 15px;
+  /* border-left: 2px solid #50597b; */
+  transition: all 0.3s ease;
+}
+
+.nested-toggleSubMenu .nested-link {
+  padding-left: 20px;
+}
+
+/* .nested-toggleSubMenu .nested-link:active, */
+.nested-toggleSubMenu .nested-link:hover {
+  color: #04AA6D;
+}
+
+

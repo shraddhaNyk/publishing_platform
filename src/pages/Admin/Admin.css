@@ -1,0 +1,191 @@
+/* 
+
+.create-block ,
+.update-block,
+.delete-block{
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-left: 30%;
+}
+
+
+.adminInput[type="text"],
+.adminInput[type="file"] {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.savecancel {
+  display: flex;
+  justify-content:space-between;
+}
+
+.save-btn button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2d324e;
+  color: white;
+  cursor: pointer;
+}
+
+.save-btn button:hover {
+  background-color: #525771;
+}
+
+.cancel-btn button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  margin-left: -20%;
+  border-radius: 5px;
+  background-color: #d0d0d0;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.cancel-btn button:hover {
+  background-color: #9e9e9e;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+.admin-message-box {
+  position:fixed;
+  top: 55%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  background: #f6f6f6;
+  padding: 1.5%;
+
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  z-index: 9999;  
+  width: 190px;
+  text-align: center;
+}
+
+.admin-message-box p {
+  margin-bottom: 15px;
+}
+
+.admin-message-box button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-message-box button:hover {
+  background-color: #0056b3;
+}
+ */
+ .create-block ,
+ .update-block,
+ .delete-block{
+   background-color: #f9f9f9;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 30px;
+   width: 400px;
+   margin-bottom: 20px;
+   margin-top: 60px;
+   margin-left: 30%;
+ }
+ 
+ 
+ .adminInput[type="text"],
+ .adminInput[type="file"] {
+   width: 90%;
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ .savecancel {
+   display: flex;
+   justify-content:space-between;
+ }
+ 
+ .save-btn button {
+   margin-right: 10px;
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   border-radius: 5px;
+   background-color: #2d324e;
+   color: white;
+   cursor: pointer;
+ }
+ 
+ .save-btn button:hover {
+   background-color: #525771;
+ }
+ 
+ .cancel-btn button {
+   padding: 10px 15px;
+   font-size: 16px;
+   border: none;
+   margin-left: -20%;
+   border-radius: 5px;
+   background-color: #d0d0d0;
+   color: rgb(0, 0, 0);
+   cursor: pointer;
+ }
+ 
+ .cancel-btn button:hover {
+   background-color: #9e9e9e;
+ }
+ 
+ .error {
+   color: red;
+   margin-bottom: 10px;
+ }
+ .admin-message-box {
+   position:fixed;
+   top: 55%;
+   left: 54%;
+   transform: translate(-50%, -50%);
+   background: #f6f6f6;
+   padding: 1.5%;
+   /* border: 3px solid #de9d9d; */
+   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+   z-index: 9999;  
+   width: 190px;
+   text-align: center;
+ }
+ 
+ .admin-message-box p {
+   margin-bottom: 15px;
+ }
+ 
+ .admin-message-box button {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+ 
+ .admin-message-box button:hover {
+   background-color: #0056b3;
+ }
